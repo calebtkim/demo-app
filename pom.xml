@@ -144,6 +144,14 @@
       <version>2.7.5</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.aws.opentelemetry.agent</groupId>
+      <artifactId>aws-opentelemetry-agent</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/aws-opentelemetry-agent.jar</systemPath>
+    </dependency>
+
   </dependencies>
 
   <build>
